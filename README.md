@@ -1,0 +1,1 @@
+# majoya040.github.io
