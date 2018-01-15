@@ -1,161 +1,64 @@
 <!DOCTYPE html>
-<html>
 <head>
-<style>
-* {
-    box-sizing: border-box;
-}
-
-body {
-    font-family: Arial;
-    padding: 20px;
-    background: #f1f1f1;
-}
-
-/* Header/Blog Title */
-.header {
-    padding: 30px;
-    font-size: 40px;
-    text-align: center;
-    background: white;
-}
-
-/* Style the top navigation bar */
-.topnav {
-    overflow: hidden;
-    background-color: #333;
-}
-
-/* Style the topnav links */
-.topnav a {
-    float: left;
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-/* Change color on hover */
-.topnav a:hover {
-    background-color: #ddd;
-    color: black;
-}
-
-/* Create two unequal columns that floats next to each other */
-/* Left column */
-.leftcolumn {   
-    float: left;
-    width: 75%;
-}
-
-/* Right column */
-.rightcolumn {
-    float: left;
-    width: 25%;
-    background-color: #f1f1f1;
-    padding-left: 20px;
-}
-
-/* Fake image */
-.fakeimg {
-    background-color: #aaa;
-    width: 100%;
-    padding: 20px;
-}
-
-/* Add a card effect for articles */
-.card {
-     background-color: white;
-     padding: 20px;
-     margin-top: 20px;
-}
-
-/* Clear floats after the columns */
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-/* Footer */
-.footer {
-    padding: 20px;
-    text-align: center;
-    background: #ddd;
-    margin-top: 20px;
-}
-
-/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
-@media (max-width: 800px) {
-    .leftcolumn, .rightcolumn {   
-        width: 100%;
-        padding: 0;
-    }
-}
-
-/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
-@media (max-width: 400px) {
-    .topnav a {
-        float: none;
-        width:100%;
-    }
-}
-</style>
+<title>homework</title>
 </head>
+
 <body>
+<center><h1><font color='green'>Joya's homework</font></h1></center>
 
-<div class="header">
-  <h2>Blog Name</h2>
-</div>
+<h3>A table showing structured and object oriented programming landuages</h3>
+<center><table border="3" style="width:30%">
+<tr>
+   <th>structured</th>
+   <th>object oriented</th>
+</tr>
+<tr>
+   <td>ALGOL</td>
+   <td>ceylon</td>
+</tr>
+<tr>
+   <td>GNU pascal</td>
+   <td>chapel</td>
+</tr>
+<tr>
+   <td>LEAP</td>
+   <td>cobra</td>
+</center></table><br><br>
+   
+<center><img src="CHURI.JPG" alt="image of churi"></center><br>
+<center><p><font color='black'>An expample of hiperlink</font></p></center>
+<center><a href="https://www.flickr.com/photos/khamkheyal/5287573613/sizes/l">picture</a></center><br><br>
 
-<div class="topnav">
-  <a href="#">Link</a>
-  <a href="#">Link</a>
-  <a href="#">Link</a>
-  <a href="#" style="float:right">Link</a>
-</div>
-
-<div class="row">
-  <div class="leftcolumn">
-    <div class="card">
-      <center><h1> web</h1></center>
-<center><img src="churi.jpg" alt="image of churi"></center>
-<center><a href="https://www.flickr.com/photos/khamkheyal/5287573613/sizes/l">churi</a></center>
-<center><video width="320" height="240" autoplay>
+<center><h3><font color='gray'>A video example:<font><h3></center>
+<center><video width="320" height="240" controls>
   <source src="mov_bbb.mp4" type="video/mp4">
   <source src="mov_bbb.ogg" type="video/ogg">
   Your browser does not support the video tag.
-</video></center>
+</video></center><br><br>
 
+<center><h3><font color='prusian blue'>Ghorar dak er sobdo:<font><h3></center>
 <center><audio controls>
   <source src="horse.ogg" type="audio/ogg">
   <source src="horse.mp3" type="audio/mpeg">
   Your browser does not support the audio element.
-</audio></center>
-</div>
-  <div class="rightcolumn">
-    <div class="card">
-      <h2>About Me</h2>
-      <div class="fakeimg" style="height:100px;">Image</div>
-      <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
-    </div>
-    <div class="card">
-      <h3>Popular Post</h3>
-      <div class="fakeimg"><p>Image</p></div>
-      <div class="fakeimg"><p>Image</p></div>
-      <div class="fakeimg"><p>Image</p></div>
-    </div>
-    <div class="card">
-      <h3>Follow Me</h3>
-      <p>Some text..</p>
-    </div>
-  </div>
-</div>
+</audio></center><br><br>
 
-<div class="footer">
-  <h2>Footer</h2>
-</div>
+<h3><p><font color='black'>A website example:</font></p></h3>
+<center><iframe width="700" height="400" src="https://www.programiz.com/cpp-programming/inheritance"></iframe></center><br><br>
+
+<p><font size="5" color='creamson'>This is an example of form</font></p>
+<form>
+<label for="a">Name:</label>
+<input type="text" id="a" placeholder="username"><br><br>
+<label for="password">Password:</label>
+<input type="password" id="password" placeholder="password" required><br><br>
+<label for="email">E-mail:</label>
+<input type="email" id="email" placeholder="@gmail.com" required><br><br>
+<label for="gender">Choose one:</label><br>
+<input type="radio" name="gender" value="male" checked>Male<br>
+<input type="radio" name="gender" value="female">Female<br>
+<input type="submit" value="submit">
+</form>
 
 </body>
 </html>
